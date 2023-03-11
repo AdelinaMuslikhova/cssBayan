@@ -1,0 +1,18 @@
+.wrapper{
+    max-width: 1000px;
+    margin:0 auto;
+}
+.meme__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.meme__image{
+    
+    text-align: center;
+    width: 100%;
+    object-fit: cover;
+}
+.meme__image img{
+    width: 300px;
+}
