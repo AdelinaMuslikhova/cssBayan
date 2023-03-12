@@ -1,18 +1,32 @@
 .wrapper{
-    max-width: 1000px;
+    max-width: 500px;
     margin:0 auto;
+}
+h1{
+    font: normal 2rem 'Tilt Warp', cursive;
+    margin-bottom: 0;
+    padding-bottom:15px;
+    border-bottom: 1px solid rgb(182, 171, 171);
 }
 .meme__container{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+.meme__header{
+    font: normal 0.9rem 'Tilt Warp', cursive;
+}
+#meme__icon{
+    display: none;
+}
 .meme__image{
-    
     text-align: center;
     width: 100%;
     object-fit: cover;
 }
 .meme__image img{
     width: 300px;
+}
+.meme:hover #meme__icon{
+    display: flex;
 }
